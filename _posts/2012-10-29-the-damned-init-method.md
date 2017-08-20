@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: The damned 'init' method
 ---
 You probably saw this pattern many times before:
 ```Java
