@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Remove the 'i' from your interfaces
+fbcomments: yes
 ---
 
 Thursday, March 1, 2012
