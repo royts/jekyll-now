@@ -5,6 +5,8 @@ fbcomments: yes
 ---
 
 
+![_config.yml]({{ site.baseurl }}/images/letter-i.jpg){: .hide-on-mobile}
+
 Let's say I'm creating two classes - A and B, when A is using B.
 
 Because I don't want A to be coupled to B, I'am injecting an interface that B implements.
@@ -12,8 +14,6 @@ Because I don't want A to be coupled to B, I'am injecting an interface that B im
 Until today, even if I had only one implementation for this interface, I created an interface called IB, implement it in B and inject it to A.
 
 The idea of creating an interface just to allow me to change the implementation of B in the future always felt like violation of [YAGNI](http://c2.com/xp/YouArentGonnaNeedIt.html).
-
-![_config.yml]({{ site.baseurl }}/images/letter-i.jpg){: .hide-on-mobile}
 
 Well, yesterday I reached the "Interfaces and implementations" section in [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) of [Uncle Bob](http://www.objectmentor.com/omTeam/martin_r.html).
 
