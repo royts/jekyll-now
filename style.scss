@@ -287,7 +287,12 @@ footer {
     float: right;
 }
 
-@media (max-width: 480px), .posts {
+@media (max-width: 480px) {
+  .hide-on-mobile {
+    display:none;
+  }
+}
+.posts {
   .hide-on-mobile {
     display:none;
   }
