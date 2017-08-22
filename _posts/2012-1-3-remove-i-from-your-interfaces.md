@@ -4,8 +4,9 @@ title: Remove the 'i' from your interfaces
 fbcomments: yes
 ---
 
-Thursday, March 1, 2012
-Remove the 'i' from your interfaces
+
+![_config.yml]({{ site.baseurl }}/images/letter-i.jpg)
+
 Let's say I'm creating two classes - A and B, when A is using B.
 
 Because I don't want A to be coupled to B, I'am injecting an interface that B implements.
@@ -21,3 +22,4 @@ I prefer to leave interfaces unadorned. The preceding I, so common in today’s 
 Then I  thought about the fact that there are many classes in Java libraries that don't starts with an 'I' although they are an interfaces: [CharSequence](http://docs.oracle.com/javase/6/docs/api/java/lang/CharSequence.html) , [Connection](http://docs.oracle.com/javase/6/docs/api/java/sql/Connection.html) etc.
 
 So, I have decided to stop adding the 'I' prefix to my interfaces. This way I can create a single implementation and extract an interface in the future if I'll need it.
+
