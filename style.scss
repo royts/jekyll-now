@@ -283,12 +283,12 @@ footer {
   text-align: center;
 }
 
-.callout {
+.hide-on-mobile {
     float: right;
 }
 
 @media (max-width: 480px) {
-  .callout {
+  .hide-on-mobile {
     display:none;
   }
 }
