@@ -4,7 +4,7 @@ title: Remove the 'i' from your interfaces
 fbcomments: yes
 ---
 
-![_config.yml]({{ site.baseurl }}/images/letter-i.jpg){.callout}
+![_config.yml]({{ site.baseurl }}/images/letter-i.jpg){: .callout}
 
 Let's say I'm creating two classes - A and B, when A is using B.
 
