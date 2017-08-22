@@ -1,9 +1,11 @@
 ---
 layout: post
 title: The damned 'init' method
+fbcomments: yes
 ---
 You probably saw this pattern many times before:
-```Java
+
+```java
 class MyClass {
  public init () {
  ...
