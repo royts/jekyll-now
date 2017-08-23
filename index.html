@@ -4,15 +4,32 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ content }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+      <div class="date">
+        Written on {{ post.date | date: "%B %e, %Y" }}
+      </div>
+
+      {% include facebook-init.html %}
+      {% if post.fbcomments %}
+        <hr/>
+        <h4>Comments</h4>
+        <div class="fb-comments" data-href="http://royts.com{{ post.url }}" data-colorscheme="light" data-num-posts="4" data-width="706"></div>
+      {% endif %}
+
+    <!--<article class="post">-->
+
+      <!--<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>-->
+
+      <!--<div class="entry">-->
+        <!--{{ post.excerpt }}-->
+      <!--</div>-->
+
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+    <!--</article>-->
   {% endfor %}
 </div>
