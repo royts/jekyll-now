@@ -19,8 +19,8 @@ avatar_200: https://raw.githubusercontent.com/royts/royts.github.io/master/image
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: roy@royts.com
-  facebook: roy.tsabari
+  email: "roy@royts.com"
+  facebook: "roy.tsabari"
   flickr:
   github: royts
   instagram:
@@ -42,7 +42,7 @@ google_analytics: UA-35932198-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-  url: http://www.royts.com
+url: http://www.royts.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
