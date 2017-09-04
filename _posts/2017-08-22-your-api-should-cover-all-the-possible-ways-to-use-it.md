@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your (not only code) API should cover all the possible ways to use it
+title: Your API should cover all the possible ways to use it
 fbcomments: yes
 ---
 
